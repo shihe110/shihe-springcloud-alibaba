@@ -11,6 +11,8 @@
 
     <modules>
         <module>shihe-springcloud-nacos</module>
+        <module>shihe-springcloud-mutilds</module>
+        <module>shihe-springcloud-gateway</module>
     </modules>
 
     <properties>
