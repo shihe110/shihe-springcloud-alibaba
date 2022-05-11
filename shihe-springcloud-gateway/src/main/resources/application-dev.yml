@@ -2,22 +2,7 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: netty-service
-          uri: ws://127.0.0.1:8012
+        - id: shihe-netty-cluster
+          uri: lb://shihe-netty
           predicates:
             - Path=/ws/**
-#        - id: product-service
-#          uri: http://localhost:8081/
-#          predicates:
-#            - Path=/product/**
-        - id: order-service
-          uri: lb://order-service
-#          uri: http://localhost:8082/
-          predicates:
-            - Path=/order-service/**
-          filters:
-            - StripPrefix=1
-#        - id: netty-service
-#            uri: lb:ws://127.0.0.1:8012
-#            predicates:
-#              - Path=/ws/**
