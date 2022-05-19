@@ -1,0 +1,14 @@
+server:
+  port: 8091
+spring:
+  application:
+    name: netty_ws_2
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+netty:
+  port: 8013
+  wsname: shihe-netty
