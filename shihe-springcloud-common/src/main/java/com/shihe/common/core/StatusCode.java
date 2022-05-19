@@ -1,5 +1,8 @@
 package com.shihe.common.core;
 
+/**
+ * 形式二
+ */
 public enum StatusCode {
 
     SUCCESS("200", "success"),

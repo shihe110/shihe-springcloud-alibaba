@@ -4,6 +4,10 @@ import lombok.Data;
 
 import java.io.Serializable;
 
+/**
+ * 形式二
+ * @param <T>
+ */
 @Data
 public class Result<T> implements Serializable {
 
