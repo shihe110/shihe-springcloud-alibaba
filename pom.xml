@@ -15,7 +15,6 @@
         <module>shihe-springcloud-gateway</module>
         <module>shihe-springcloud-netty1</module>
         <module>shihe-springcloud-netty2</module>
-        <module>shihe-springcloud-common</module>
     </modules>
 
     <properties>
